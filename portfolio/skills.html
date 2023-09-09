@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b35de188cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+     <div class="sidebar sidebarGo">
+        
+        <nav>
+            <ul>
+                <li><a href="C:\Users\deeks\OneDrive\Desktop\BII\portfolio\index.html" class="sidebar-link">Home</a> </li>
+                <li><a href="C:\Users\deeks\OneDrive\Desktop\BII\portfolio\about.html">About Me</a></li>
+                <li><a href="C:\Users\deeks\OneDrive\Desktop\BII\portfolio\education.html">Education</a></li>
+                <li><a href="C:\Users\deeks\OneDrive\Desktop\BII\portfolio\skills.html">Skills</a></li>
+                <li><a href="C:\Users\deeks\OneDrive\Desktop\BII\portfolio\mywork.html">My Work</a></li>
+                <li><a href="C:\Users\deeks\OneDrive\Desktop\BII\portfolio\contact.html">Contact Me</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="hambar">
+            <i class="fa-solid fa-bars ham"></i>
+            <i class="fa-solid fa-xmark cross"></i>
+        </div>
+     <h1 class="heading"><i class="fa-regular fa-list-radio"></i>Skills and Achivements</h1>
+     <div class="tab-titles">
+        <h1 class="Skills tab-links active-link" onclick="opentab('skills')">Skills</h1>
+        <h1 class="Skills tab-links" onclick="opentab('project')">Project</h1>
+        <h1 class="Skills tab-links" onclick="opentab('activity')">Achivements</h1>
+     </div>
+     <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <h2 class="front-end">Front End:</h2>
+            <li><span>HTML , CSS & Javascript</span> Designing Web/App interfaces in web applications,for game development etc.</li>
+            <h2 class="back-end">Back End</h2>
+            <li><span>Python</span> is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.</li>
+            <h2 class="data-base">Data Base</h2>
+            <li><span>SQL and MySQL</span> access and manipulate database. MySQL is an open-source relational database management system.</li>
+        </ul>
+     </div>
+     <div class="tab-contents" id="project">
+        <ul>
+            <h2 class="back-end">To-do Website</h2>
+            <li>A list of tasks that an individual needs to complete or accomplish.</li>
+            <li><span>Technologies used:</span>HTML,CSS,JavaScript,JS Essential</li>
+            <h2 class="data-base">User Login Page</h2>
+            <li>A unique username and associated password provisioned to an identifiable individual to permit them to access the Services.</li>
+            <li><span>Technologies used:</span>HTML,CSS,JavaScript.</li>
+        </ul>
+     </div>
+     <div class="tab-contents" id="activity">
+        <ul>
+            <h2 class="activity">Currcular Activities</h2>
+            <li>Participant certificate of ' Swachata Volunteer'</li><br/>
+            <li>Participants certificate of  A One Day National Level Student Technical Symposium  organized by department of Computer Science and Engineering.</li>
+            
+        </ul>
+     </div>
+
+    </div>
+   
+</div>
+<script src="script.js"></script>
+</body>
+</html>
